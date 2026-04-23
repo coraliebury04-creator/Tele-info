@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <meta charset="utf-8">
+    <h1>Exercice N°9</h1>
+    <p>Appel périodique de fonction</p>
+    <p>Un programme dans cette page démarre une horloge :</p>
+    <p id="demo"></p>
+    <script>
+        setInterval("myTimer()", 1000);
+        function myTimer()
+        {
+            var d=new Date();
+            var t=d.toLocaleTimeString();
+            document.getElementById("demo").innerHTML=t;
+        }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+  <body>
+    <meta charset="utf-8">
+    <h1>Exercice N°6</h1>
+    <p>Gestion des exceptions</p>
+    <input type="button" value="Voir le message" onclick="message()" />
+
+    <script>
+    var txt="";
+    function message()
+    {
+        try
+        {
+            adddlert("Bienvenue !");
+        }
+        catch(err)
+        {
+            txt="Il y a une erreur sur cette page\n\n";
+            txt+="Description de l'erreur : " + err.message + "\n\n";
+            txt+="Cliquez sur OK pour continuer\n\n";
+            alert(txt);
+        }
+    }
+    </script>
+  </body>
+</html>
