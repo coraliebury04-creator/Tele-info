@@ -1,0 +1,91 @@
+/* Fond de page avec un dégradé turquoise/violet */
+body {
+    background: linear-gradient(135deg, #40E0D0, #9370DB);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin: 0;
+    color: #333;
+}
+
+/* Carte principale blanche/transparente */
+.main-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    border: 3px solid #FF007F; /* Bordure Rose */
+}
+
+h1 {
+    color: #FF007F; /* Rose */
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #9370DB; /* Violet */
+    margin-top: 0;
+    font-weight: 300;
+}
+
+.media-container img, .media-container video {
+    width: 45%;
+    border-radius: 10px;
+    margin: 10px 2%;
+    border: 2px solid #40E0D0; /* Turquoise */
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.info-item {
+    background: #f8f0fc;
+    padding: 10px;
+    border-radius: 8px;
+    border-bottom: 3px solid #9370DB;
+}
+
+.label {
+    display: block;
+    font-size: 0.8em;
+    color: #FF007F;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Style du Slider */
+input[type=range] {
+    width: 80%;
+    accent-color: #9370DB;
+}
+
+button {
+    background-color: #40E0D0;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #FF007F;
+    transform: scale(1.1);
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.2em;
+}

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Exercice N°8</h1>
+        <p>Passage d'objets en paramètres</p>
+        <div onmouseover="mOver(this)" onmouseout="mOut(this)"
+            style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
+            Passez le curseur ici
+        </div>  
+    </body>
+</html>
