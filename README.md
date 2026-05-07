@@ -1,4 +1,7 @@
-```
+# 📡 Projet Télé-info
+
+### 📂 Structure du dépôt
+```text
 téléinfo/
 ├── README.md           # Présentation du projet
 ├── LOGBOOK.md          # Journal de bord (Cahier de textes)
@@ -7,4 +10,3 @@ téléinfo/
 │   ├── TP2_compteur/
 │   └── projet_final/
 └── docs/               # Images ou schémas explicatifs
-```
